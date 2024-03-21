@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1d2336"
+    tools:context=".Hawaii">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Hawaii"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/haw"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:text="   Date :                               17/05/2024 "
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/layout"/>
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="460dp"
+        android:text="   Duration :                            6D/5N "
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/layout"/>
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="520dp"
+        android:text="  Number of Members :             2"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/layout"/>
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="580dp"
+        android:text="  Total Amount :                Rs.1,50,000"
+        android:textStyle="bold"
+        android:textColor="#09abe0"
+        android:textSize="22sp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/layout"/>
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="640dp"
+        android:text="  Status :                              Upcoming"
+        android:textStyle="bold"
+        android:textColor="#00FF00"
+        android:textSize="22sp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/layout"/>
+
+</RelativeLayout>

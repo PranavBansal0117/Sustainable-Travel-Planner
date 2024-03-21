@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingPage2"
+    android:background="#1d2336">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#7754FF"
+                android:text="From : Bangalore , India "
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#7754FF"
+                android:text="To : Chennai , Tamil Nadu"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="#Click to book"
+                android:textColor="#FFA500"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn29"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#cacc9f"
+                android:text="  08:00 -> 12:00 \n\n Mode :  Prime Sedan \n Maximum Passengers : 4 \n Driver : Raju Balram \n Rating : 4.5"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="0dp"
+                android:text="Recommended"
+                android:textColor="#FFA500"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn30"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#cacc9f"
+                android:text=" 15:00 -> 20:30 \n\n Mode :  SUV \n Maximum Passengers : 8 \n Driver : Manju Ram \n Rating : 4.0"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/btn31"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#cacc9f"
+                android:text="  16:40 -> 21:50 \n\n Mode :  Prime Sedan \n Maximum Passengers : 4 \n Driver : Manju Ram \n Rating : 3.8"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
